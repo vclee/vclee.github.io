@@ -1,3 +1,107 @@
+header {
+  text-align: center;
+}
+
+#mona-lisa {
+  border: 10px solid black;
+}
+
+#dedicated {
+  text-align: center;
+  font-family: cursive;
+  font-size: 24px;
+}
+
+#paw {
+  margin-top: 50px;
+  padding-left: 100px;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: bold;
+  font-family: cursive;
+}
+
+#adopt {
+  font-family: tahoma;
+  font-weight: bold;
+  font-size: 48px;
+  color: red;
+}
+
 body {
-  background-color: red;
+  background-image: url(http://www.petsionary.com/wp-content/uploads/pu/pug-for-desktop-background.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right
+}
+
+#fries {
+  padding-left: 10%;
+}
+
+#fascinating {
+  padding-left: 15px;
+  width: 50%;
+  text-align: center;
+}
+
+.list {
+  padding-top: 10px;
+  padding-left: 20%;
+}
+
+#fascinating-list {
+  padding-left: 20%;
+  font-size: 30px;
+  font-family: cursive;
+}
+
+table th {
+  color: #008000;
+  font-family: arial;
+}
+
+table {
+  text-align: center;
+  color: #806000;
+  font-family: arial;
+  width: 50%;
+  margin-left: 20%;
+}
+
+#hungry {
+  font-size: 30px;
+  font-family: cursive;
+  padding-left: 20%;
+}
+
+footer {
+  text-align: center;
+}
+
+#euthanized {
+  font-family: tahoma;
+  font-size: 30px;
+}
+
+.link {
+  font-weight: bold;
+  font-family: arial;
+}
+
+a:visited {
+  color: brown;
+}
+
+a:hover {
+  color: blue;
+}
+
+@media only screen and (orientation: portrait) {
+  img {
+    width: 50%;
+    height: 50%;
+  }
 }
